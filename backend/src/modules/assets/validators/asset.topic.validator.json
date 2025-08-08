@@ -1,0 +1,38 @@
+{
+  "smartNodeSecurity": "full",
+  "actionsConditions": {
+    "values": ["update", "delete", "message"],
+    "controller": "owner"
+  },
+  "updateConditions": {
+    "values": ["memo"],
+    "controller": "owner"
+  },
+  "tokenGates": {
+    "fungibles": {
+      "tokens": []
+    },
+    "nonFungibles": {
+      "tokens": [
+        {
+          "tokenId": "",
+          "serialNumbers": [],
+          "timeRange": {
+            "from": 0,
+            "to": 0
+          }
+        }
+      ]
+    },
+    "timeRange": {
+      "from": 0,
+      "to": 0
+    }
+  },
+  "customInterface": {
+    "interfaceName": "Message",
+    "properties": {
+      "message": "string"
+    }
+  }
+}

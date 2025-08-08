@@ -1,0 +1,41 @@
+{
+  "name": "gemio-web",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@chakra-ui/react": "^3.16.1",
+    "@emotion/react": "^11.14.0",
+    "@hashgraph/sdk": "^2.64.5",
+    "@hookform/resolvers": "^5.0.1",
+    "axios": "^1.9.0",
+    "chakra-react-select": "^6.1.0",
+    "framer-motion": "^12.9.2",
+    "moment": "^2.30.1",
+    "next": "15.3.1",
+    "next-auth": "^4.24.11",
+    "next-themes": "^0.4.6",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-hook-form": "^7.56.1",
+    "react-icons": "^5.5.0",
+    "react-multi-date-picker": "^4.5.2",
+    "remask": "^1.2.2",
+    "yup": "^1.6.1"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "15.3.1",
+    "eslint-config-prettier": "^10.1.2",
+    "typescript": "^5"
+  }
+}
