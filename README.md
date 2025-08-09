@@ -66,3 +66,10 @@ Use these commands to start the application in different environments. The appli
 * `npm run test:e2e`: Runs end-to-end (e2e) tests using the specified Jest configuration.
 
 # How to run - Frontend
+
+#### **Development**
+
+* `npm run dev`: Starts the application in **development mode** with hot-reloading. This is the script you'll use most often during development.
+* `npm run build`: Creates a production-ready build of your application. This compiles and optimizes all files for deployment.
+* `npm run start`: Starts a Next.js production server. This command should be used after running `npm run build`.
+* `npm run lint`: Runs **Next.js's built-in ESLint** to check your code for potential errors and enforce code quality standards.
