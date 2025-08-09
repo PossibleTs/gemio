@@ -36,3 +36,33 @@ The proposed solution aims to facilitate data flow throughout the chain while up
 The foundation of this proposal revolves around digitizing these assets by creating a digital twin (token) on a secure, rapid, cost-effective, and scalable public network (DLT). Data produced by each participant in this chain will be securely stored on a DLT to maintain integrity, security, privacy, traceability, and longevity. Each participant, besides generating data, will also be a data consumer through a complex web of private keys.
 
 Beyond technical considerations, the process will necessitate the development of standards and methodologies to ensure seamless data flow and prevent data isolation in silos.
+
+# How to run - Backend
+#### **Build and Formatting**
+
+* `npm run build`: Compiles the TypeScript source code into JavaScript, creating a production-ready build.
+* `npm run format`: Automatically formats all TypeScript files in the `src` and `test` directories using **Prettier**.
+
+---
+
+#### **Application Startup**
+
+Use these commands to start the application in different environments. The application will restart automatically whenever you make changes to a file.
+
+* `npm run start`: Starts the application in the default environment.
+* `npm run start:local`: Starts the application in the **local** environment.
+* `npm run start:develop`: Starts the application in the **development** environment.
+* `npm run start:stage`: Starts the application in the **staging** environment.
+* `npm run start:main`: Starts the application in the **production** environment.
+
+---
+
+#### **Testing**
+
+* `npm run test`: Runs the **Jest** test suite once.
+* `npm run test:watch`: Runs **Jest** in watch mode, rerunning tests when files change.
+* `npm run test:cov`: Runs **Jest** and generates a test coverage report.
+* `npm run test:debug`: Starts **Jest** in debug mode, allowing you to attach a debugger.
+* `npm run test:e2e`: Runs end-to-end (e2e) tests using the specified Jest configuration.
+
+# How to run - Frontend
